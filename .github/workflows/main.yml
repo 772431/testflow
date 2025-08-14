@@ -1,0 +1,13 @@
+name: cl example
+on: push
+jobs: 
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: says hello
+        run : echo "Hello World"
+  say-hi:
+      runs-on: ubuntu-latest
+      steps:
+        - name: says Hi
+          run: echo "Hi"
